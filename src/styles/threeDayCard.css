@@ -1,0 +1,50 @@
+.card{
+  width:100%;
+  padding: 0px 20px;
+}
+.weather3Display-icon{
+  height: 70px;
+  width: auto;
+}
+
+.card-title{
+  font-size: 18px;
+  font-family: "poppins";
+  margin:0;
+  padding:0;
+  color: #042c25;
+  font-weight: 280;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.card-content {
+  display: flex;
+  gap:10px;
+  justify-content: space-around; 
+  align-content: center;
+}
+.weather3Display-temp{
+  display: flex;
+  font-size: 40px;
+  font-family: "poppins";
+  margin:0;
+  padding: 0;
+  align-items: center;
+}
+.weather3Display-feel{
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  font-family: "poppins";
+  font-weight: 350;
+  color: darkgray;
+}
+.weather3Display-item{
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-family: "poppins";
+}
+

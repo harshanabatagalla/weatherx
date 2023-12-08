@@ -1,0 +1,168 @@
+.WeatherDisplay-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width:auto
+}
+
+.loction-name{
+    text-align: center;
+    font-size: 20px;
+    justify-content: center;
+    width: 100%;
+    color: #042c25;
+    text-align: center;
+    display: flex;
+    font-family: 'Roboto';
+}
+.current-content{
+    background: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    margin: 20px;
+    /* flex-wrap: wrap; */
+    margin-top: 10px;
+}
+
+.weatherDisplay-icon {
+    height: 180px;
+    width: 180px;
+
+}
+
+.main-weather{
+    background-color: #FFFFFF;
+}
+.main-weather-box-inside {
+    padding: 5px 10px;
+}
+.main-weather-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-weather-temp {
+    display: flex;
+}
+
+.main-weather-temp-number {
+    flex: 1;
+    font-size: 65px;
+    font-family: "poppins";
+    padding-left: 15px;
+}
+
+.main-weather-temp-celcius {
+    flex: 1;
+    font-size: 35px;
+    font-family: "poppins";
+    padding-top: 10px;
+    font-weight: 350;
+}
+
+
+.main-weather-description {
+    font-size: 22px;
+    font-family: "poppins";
+    font-weight: 350;
+    color: dimgray;
+    padding-left: 15px;
+}
+
+.WeatherDisplay-leftPanel {
+    margin-left: 10px;
+    width: 100%;
+}
+
+.main-weather-date {
+    padding: 10px 0px;
+    /* text-align: center; */
+    font-size: 25px;
+}
+.main-weather-date-month {
+    font-family: "poppins";
+    font-weight: 350;
+    color: dimgray;
+}
+
+
+.main-weather-date-day {
+    font-family: "poppins";
+    font-weight: bolder;
+}
+
+.search-location{
+    width:100%;
+    display: inline-flex;
+    justify-content: space-around;
+    gap: 5px;
+    
+}
+
+.weather-details-container {
+    margin-top: 5px;
+}
+
+.wether-details-row{
+    display: flex;
+}
+
+
+.weather-details-card {
+    border-radius: 5px;
+    background-color: #ffff;
+    padding: 5px;
+    width: 50%;
+    margin: 5px;
+}
+
+
+.weather-details-card-headding {
+    font-family: "poppins";
+    color: dimgray;
+    font-size: 12px;
+
+}
+
+.invalid-location{
+    font-family: "poppins";
+    color: red;
+    font-size: 12px;
+    margin-left: 10px;
+
+}
+
+.weather-details-icons-feel {
+    color: #F28330;
+}
+.weather-details-icons-wind {
+    color: #4050D2;
+    margin-left: 10px;
+}
+
+
+
+.weather-details-card-heading {
+    font-family: "poppins";
+    font-size: 13px;
+    font-weight: light;
+    color: #a3a2a2;
+}
+
+.weather-details-card-content {
+    justify-content: space-between;
+    display: flex;
+
+
+}
+
+.weather-details-card-content-text {
+    font-family: "poppins";
+    font-size: 25px;
+}
+
+.weather-details-card-content-text-secondary{
+    font-family: "poppins";
+    font-size: 12px;
+}

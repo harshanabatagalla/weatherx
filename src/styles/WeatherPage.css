@@ -1,0 +1,43 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px ;
+    padding: 0px 20px;
+}
+
+.weather-forcast{
+    text-align: center;
+    font-family: "Roboto";
+    font-weight: 350;
+    color:#ffffff;
+    font-size: 35px;
+    
+}
+.three-day{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    justify-content: center;
+    align-items: center;
+    width:95%;
+    
+}
+.current{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.show-more{
+    align-self: flex-end;
+    padding: 0px 20px;
+}
+.logout-btn{
+    align-self: flex-end;
+    padding: 5px 20px;
+    display:flex;
+}
